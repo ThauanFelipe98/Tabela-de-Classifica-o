@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura | Aula 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="principal">Copa Alura 2023</h1>
+  
+  <input class="inputAdicionar" type="text" id="campoNomeJogador" placeholder="Adicionar clubes" />
+  <button id="adicionarTime" class="btnAdicionar" onClick="criarJogador()">Adicionar</button>
+
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Clube</th>
+        <th>J</th>
+        <th>V</th>
+        <th>E</th>
+        <th>D</th>
+        <th>P</th>
+        <th colspan="5">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogadores">
+
+    </tbody>
+  </table>
+  <button class="apagarEquipe" onClick="apagarJogadores()">Apagar todos os registros</button>
+<script src="script.js"></script>
+
+</html>
